@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Netflix Clone</title>
+<style>
+    body{margin:0;background:black;color:white;font-family:Arial;}
+    .header{
+        background:url("https://picsum.photos/1200/600?movie") center/cover;
+        height:450px;padding:20px;
+    }
+    .header h1{margin-top:150px;font-size:50px;}
+    .movies{
+        padding:20px;
+    }
+    .row{
+        display:flex;gap:15px;overflow-x:auto;
+    }
+    .row img{
+        width:200px;height:120px;border-radius:10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Unlimited Movies, TV Shows</h1>
+</div>
+
+<section class="movies">
+    <h2>Trending Now</h2>
+    <div class="row">
+        <img src="https://picsum.photos/300/200?1">
+        <img src="https://picsum.photos/300/200?2">
+        <img src="https://picsum.photos/300/200?3">
+        <img src="https://picsum.photos/300/200?4">
+        <img src="https://picsum.photos/300/200?5">
+    </div>
+</section>
+
+<section class="movies">
+    <h2>Popular on Netflix</h2>
+    <div class="row">
+        <img src="https://picsum.photos/300/200?6">
+        <img src="https://picsum.photos/300/200?7">
+        <img src="https://picsum.photos/300/200?8">
+        <img src="https://picsum.photos/300/200?9">
+    </div>
+</section>
+
+</body>
+</html>
